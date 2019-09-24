@@ -36,6 +36,7 @@ export default class CardList extends React.Component {
 
     render() {
         const { items, commentsForItem } = this.props;
+        console.log(items);
 
         return (
             <FlatList 

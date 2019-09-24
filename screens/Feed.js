@@ -31,7 +31,7 @@ export default class Feed extends React.Component {
     async componentDidMount() {
         try {
             const items = await fetchImages();
-
+            
             this.setState({
                 loading: false,
                 items,
